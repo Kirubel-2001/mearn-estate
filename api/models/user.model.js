@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema(
     },
     avatar:{
       type: String,
-      default: "https://tse2.mm.bing.net/th?id=OIP.eCrcK2BiqwBGE1naWwK3UwHaHa&pid=Api&P=0&h=220"
+       default: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
     },
     
   },
