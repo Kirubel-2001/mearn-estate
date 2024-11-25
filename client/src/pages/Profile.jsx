@@ -126,7 +126,7 @@ export default function Profile() {
       if (data.success === false) {
         setShowListingsError(true);
         return;
-      }
+      } 
       setUserListings(data);
     } catch (error) {
       setShowListingsError(true);
