@@ -1,5 +1,3 @@
-import lineClamp from "@tailwindcss/line-clamp";
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -10,6 +8,9 @@ export default {
     extend: {},
   },
   plugins: [
-    lineClamp,
+    // eslint-disable-next-line no-undef
+    require('@tailwindcss/line-clamp'),
+    // ...
   ],
-};
+}
+
