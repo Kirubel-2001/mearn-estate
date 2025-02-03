@@ -15,7 +15,7 @@ import {
   deleteUserFailure,
   deleteUserStart,
   signOutUserStart,
-} from "../redux/user/userSlice";
+} from "../redux/User/userSlice";
 import { Link } from "react-router-dom";
 
 export default function Profile() {
